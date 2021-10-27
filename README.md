@@ -1,4 +1,4 @@
-# eslint-plugin-blm-eslint-plugin
+# eslint-plugin-api-standard
 
 规范 api 请求函数格式
 
@@ -10,37 +10,32 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-blm-eslint-plugin`:
+Next, install `eslint-plugin-api-standard`:
 
 ```sh
-npm install eslint-plugin-blm-eslint-plugin --save-dev
+npm install eslint-plugin-api-standard --save-dev
 ```
 
 ## Usage
 
-Add `blm-eslint-plugin` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `api-standard` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": [
-        "blm-eslint-plugin"
-    ]
+  "plugins": ["api-standard"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "blm-eslint-plugin/rule-name": 2
-    }
+  "rules": {
+    "api-standard/rule-name": 2
+  }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
-
-
+- Fill in provided rules here
