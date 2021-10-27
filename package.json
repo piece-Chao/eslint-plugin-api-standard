@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-api-standard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "规范 api 请求函数格式",
   "keywords": [
     "eslint",
